@@ -1,2 +1,2 @@
 # to-do-app-for-DSP
-small to do app just to practice basic web programming
+small To Do app just to practice basic web programming
