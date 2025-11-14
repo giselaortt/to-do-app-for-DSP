@@ -44,7 +44,7 @@ export const TaskFormModal = ({ isOpen, editingTaskId, draftTask, onClose, onDra
 						<select id="task-status" name="status" value={draftTask.status} onChange={(event) => onDraftChange("status", event.target.value)} className="w-full rounded border border-slate-600 bg-slate-900 px-3 py-2 text-sm text-slate-100 focus:outline-none focus:ring-2 focus:ring-emerald-500/40">
 							<option value="open">Open</option>
 							<option value="in_progress">In Progress</option>
-							<option value="completed">Completed</option>
+							<option value="done">Done</option>
 						</select>
 					</div>
 					<div className="flex items-center justify-end gap-2">

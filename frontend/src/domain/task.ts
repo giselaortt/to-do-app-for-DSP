@@ -1,4 +1,4 @@
-export type TaskStatus = "open" | "in_progress" | "completed"
+export type TaskStatus = "open" | "in_progress" | "done"
 
 export type Task = {
 	id: string
