@@ -1,2 +1,3 @@
 *.DS_Store
 *.pyc
+backend/todo/tasks/__pycache__/urls.cpython-311.pyc
