@@ -1,7 +1,7 @@
 import type { Task } from "../../domain/task"
 
 export class TaskRepository {
-	private readonly baseUrl = "http://localhost:3000/api/tasks" // Changed from 3002 to 3000
+	private readonly baseUrl = "http://localhost:8000/api/tasks/" // Changed from 3002 to 3000
 
 	getAll = async () => {
 		const tasks = await fetch(this.baseUrl)
@@ -20,7 +20,7 @@ export class TaskRepository {
 	}
 	
 	update = async (id: string, task: Partial<Task>) => {
-		const response = await fetch(`${this.baseUrl}/${id}`, {
+		const response = await fetch(`${this.baseUrl}${id}/`, {
 			method: "PUT",
 			headers: {
 				"Content-Type": "application/json",
@@ -31,7 +31,7 @@ export class TaskRepository {
 	}
 	
 	delete = async (id: string) => {
-		const response = await fetch(`${this.baseUrl}/${id}`, {
+		const response = await fetch(`${this.baseUrl}${id}/`, {
 			method: "DELETE",
 		})
 		return response.status

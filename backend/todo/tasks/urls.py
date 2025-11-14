@@ -10,7 +10,7 @@ from .views import TaskViewSet
 
 # Create a router and register the TaskViewSet
 router = DefaultRouter()
-router.register(r"todos", TaskViewSet, basename="task")
+router.register(r"tasks", TaskViewSet, basename="task")
 
 urlpatterns = [
     path("api/", include(router.urls)),
