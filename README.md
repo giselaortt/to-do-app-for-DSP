@@ -3,7 +3,7 @@
 small To-Do app just to practice basic web programming for the selection process to work on DSP as a student employee
 
 
-minimalist Front End:
+### minimalist Front End:
 
 ![ui]( screenshot.png )
 
@@ -19,18 +19,23 @@ minimalist Front End:
 </video>
 
 
-in order to run the front end (from folder frontend):
+### in order to run the front end (from folder frontend):
+
     npm run dev
     http://localhost:5175/
 
 
-in order to run the Back end (from the folder backend/todo):
+
+### in order to run the Back end (from the folder backend/todo):
+
     python manage.py runserver
     http://localhost:8000/api/todos/
 
 
-command line:
-    install dependencies: pip install -r requirements.txt
+
+### commands :
+    install dependencies: 
+        pip install -r requirements.txt
     
     migration:
         python manage.py makemigrations
