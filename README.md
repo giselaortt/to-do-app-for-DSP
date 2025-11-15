@@ -14,11 +14,7 @@ small To-Do app just to practice basic web programming for the selection process
 ![ui]( screenshot3.jpg )
 
 
-<video src="https://github.com/giselaortt/to-do-app-for-DSP/raw/main/demo.mp4
-" width="600" controls>
-  Your browser does not support the video tag.
-</video>
-
+![demo]( demo.gif )
 
 
 ### in order to run the front end (from folder frontend):
