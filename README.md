@@ -14,7 +14,9 @@ minimalist Front End:
 ![ui]( screenshot3.png )
 
 
-![demo]( demo.mp4 )
+<video src="demo.mp4" width="600" controls>
+  Your browser does not support the video tag.
+</video>
 
 
 in order to run the front end (from folder frontend):
