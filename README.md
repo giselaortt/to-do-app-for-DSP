@@ -11,7 +11,7 @@ small To-Do app just to practice basic web programming for the selection process
 ![ui]( screenshot2.png )
 
 
-![ui]( screenshot3.jpg )
+![ui]( screenshot3.png )
 
 
 <video src="demo.mp4" width="600" controls>
@@ -20,14 +20,12 @@ small To-Do app just to practice basic web programming for the selection process
 
 
 ### in order to run the front end (from folder frontend):
-
     npm run dev
     http://localhost:5175/
 
 
 
 ### in order to run the Back end (from the folder backend/todo):
-
     python manage.py runserver
     http://localhost:8000/api/todos/
 
