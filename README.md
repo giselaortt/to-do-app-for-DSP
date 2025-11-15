@@ -11,7 +11,7 @@ minimalist Front End:
 ![ui]( screenshot2.png )
 
 
-![ui]( screenshot3.png )
+![ui]( screenshot3.jpg )
 
 
 ![demo]( demo.mp4 )
