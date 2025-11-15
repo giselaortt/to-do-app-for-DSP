@@ -14,7 +14,7 @@ small To-Do app just to practice basic web programming for the selection process
 ![ui]( screenshot3.jpg )
 
 
-![demo]( demo.gif )
+<img src="demo.gif" width="600" alt="Demo GIF">
 
 
 ### in order to run the front end (from folder frontend):
