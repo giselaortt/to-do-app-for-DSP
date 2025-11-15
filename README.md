@@ -11,7 +11,7 @@ small To-Do app just to practice basic web programming for the selection process
 ![ui]( screenshot2.png )
 
 
-![ui]( screenshot3.png )
+![ui]( screenshot3.jpg )
 
 
 <video src="demo.mp4" width="600" controls>
